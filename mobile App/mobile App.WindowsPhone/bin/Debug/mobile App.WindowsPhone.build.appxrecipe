@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASUS</Machine>
+    <WindowsUser>Savinda Keshan</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>154a2c30-63d6-4c56-beeb-4a765f7fb723</PackageIdentityName>
+    <IntermediateOutputPath>E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\mobile App.WindowsPhone.exe">
+      <PackagePath>mobile App.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\3Dobjects.png">
+      <PackagePath>Assets\3Dobjects.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\acceleration.png">
+      <PackagePath>Assets\acceleration.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\angle.png">
+      <PackagePath>Assets\angle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\Areabtn.png">
+      <PackagePath>Assets\Areabtn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\background1.png">
+      <PackagePath>Assets\background1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\bilnd.png">
+      <PackagePath>Assets\bilnd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\ButtonFashion.png">
+      <PackagePath>Assets\ButtonFashion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\ButtonMotionGraphs.png">
+      <PackagePath>Assets\ButtonMotionGraphs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\ButtonObject.png">
+      <PackagePath>Assets\ButtonObject.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\ButtonShapes.png">
+      <PackagePath>Assets\ButtonShapes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\ButtonWeakEye.png">
+      <PackagePath>Assets\ButtonWeakEye.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\cloth1.png">
+      <PackagePath>Assets\cloth1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\cloth2.png">
+      <PackagePath>Assets\cloth2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\cloth3.png">
+      <PackagePath>Assets\cloth3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\cloth4.png">
+      <PackagePath>Assets\cloth4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\cloth5.png">
+      <PackagePath>Assets\cloth5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\cloth6.png">
+      <PackagePath>Assets\cloth6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\clothmen1.png">
+      <PackagePath>Assets\clothmen1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\clothmen2.png">
+      <PackagePath>Assets\clothmen2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\clothmen3.png">
+      <PackagePath>Assets\clothmen3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\clothmen4.png">
+      <PackagePath>Assets\clothmen4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\clothmen5.png">
+      <PackagePath>Assets\clothmen5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\clothmen6.png">
+      <PackagePath>Assets\clothmen6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\cloths.png">
+      <PackagePath>Assets\cloths.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\fashion1.png">
+      <PackagePath>Assets\fashion1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\graph1.png">
+      <PackagePath>Assets\graph1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\graph2.png">
+      <PackagePath>Assets\graph2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\graph3.png">
+      <PackagePath>Assets\graph3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\graph4.png">
+      <PackagePath>Assets\graph4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\graph5.png">
+      <PackagePath>Assets\graph5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\graph6.png">
+      <PackagePath>Assets\graph6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\graphs.png">
+      <PackagePath>Assets\graphs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\Heightbtn.png">
+      <PackagePath>Assets\Heightbtn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\length.png">
+      <PackagePath>Assets\length.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\menubtn.png">
+      <PackagePath>Assets\menubtn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\menubtn1.png">
+      <PackagePath>Assets\menubtn1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\menubtn2.png">
+      <PackagePath>Assets\menubtn2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\object1.png">
+      <PackagePath>Assets\object1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\object2.png">
+      <PackagePath>Assets\object2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\object3.png">
+      <PackagePath>Assets\object3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\object4.png">
+      <PackagePath>Assets\object4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\object5.png">
+      <PackagePath>Assets\object5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\object6.png">
+      <PackagePath>Assets\object6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\objects.png">
+      <PackagePath>Assets\objects.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\perimeterbtn.png">
+      <PackagePath>Assets\perimeterbtn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\Volumebtn.png">
+      <PackagePath>Assets\Volumebtn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\A graph.jpg">
+      <PackagePath>Assets\A graph.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\A object mesure.jpg">
+      <PackagePath>Assets\A object mesure.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\A object.jpg">
+      <PackagePath>Assets\A object.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\Assets\appprew02.jpg">
+      <PackagePath>Assets\appprew02.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\mobile App.WindowsPhone.xr.xml">
+      <PackagePath>mobile App.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\FashionMen.xbf">
+      <PackagePath>FashionMen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\MotionGraph1.xbf">
+      <PackagePath>MotionGraph1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\MotionGraph.xbf">
+      <PackagePath>MotionGraph.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Shape1.xbf">
+      <PackagePath>Shape1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Object3.xbf">
+      <PackagePath>Object3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Object6.xbf">
+      <PackagePath>Object6.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Object4.xbf">
+      <PackagePath>Object4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Object5.xbf">
+      <PackagePath>Object5.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Object2.xbf">
+      <PackagePath>Object2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Objects.xbf">
+      <PackagePath>Objects.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\FashionWomen.xbf">
+      <PackagePath>FashionWomen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Object1.xbf">
+      <PackagePath>Object1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\WeakEye.xbf">
+      <PackagePath>WeakEye.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Shapes.xbf">
+      <PackagePath>Shapes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\Menu.xbf">
+      <PackagePath>Menu.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\VISUAL STUDIO\PROJECTS\mobile App\mobile App\mobile App.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

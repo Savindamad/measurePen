@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9011FBA3-4A05-4C97-83BE-5D968A202923}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mobile_App</RootNamespace>
+    <AssemblyName>mobile App.WindowsPhone</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FashionMen.xaml.cs">
+      <DependentUpon>FashionMen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MotionGraph1.xaml.cs">
+      <DependentUpon>MotionGraph1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MotionGraph.xaml.cs">
+      <DependentUpon>MotionGraph.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shape1.xaml.cs">
+      <DependentUpon>Shape1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Object3.xaml.cs">
+      <DependentUpon>Object3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Object6.xaml.cs">
+      <DependentUpon>Object6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Object4.xaml.cs">
+      <DependentUpon>Object4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Object5.xaml.cs">
+      <DependentUpon>Object5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Object2.xaml.cs">
+      <DependentUpon>Object2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Objects.xaml.cs">
+      <DependentUpon>Objects.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FashionWomen.xaml.cs">
+      <DependentUpon>FashionWomen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Object1.xaml.cs">
+      <DependentUpon>Object1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WeakEye.xaml.cs">
+      <DependentUpon>WeakEye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes.xaml.cs">
+      <DependentUpon>Shapes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\3Dobjects.png" />
+    <Content Include="Assets\A graph.jpg" />
+    <Content Include="Assets\A object mesure.jpg" />
+    <Content Include="Assets\A object.jpg" />
+    <Content Include="Assets\acceleration.png" />
+    <Content Include="Assets\angle.png" />
+    <Content Include="Assets\appprew02.jpg" />
+    <Content Include="Assets\Areabtn.png" />
+    <Content Include="Assets\background1.png" />
+    <Content Include="Assets\bilnd.png" />
+    <Content Include="Assets\ButtonFashion.png" />
+    <Content Include="Assets\ButtonMotionGraphs.png" />
+    <Content Include="Assets\ButtonObject.png" />
+    <Content Include="Assets\ButtonShapes.png" />
+    <Content Include="Assets\ButtonWeakEye.png" />
+    <Content Include="Assets\cloth1.png" />
+    <Content Include="Assets\cloth2.png" />
+    <Content Include="Assets\cloth3.png" />
+    <Content Include="Assets\cloth4.png" />
+    <Content Include="Assets\cloth5.png" />
+    <Content Include="Assets\cloth6.png" />
+    <Content Include="Assets\clothmen1.png" />
+    <Content Include="Assets\clothmen2.png" />
+    <Content Include="Assets\clothmen3.png" />
+    <Content Include="Assets\clothmen4.png" />
+    <Content Include="Assets\clothmen5.png" />
+    <Content Include="Assets\clothmen6.png" />
+    <Content Include="Assets\cloths.png" />
+    <Content Include="Assets\fashion1.png" />
+    <Content Include="Assets\graph1.png" />
+    <Content Include="Assets\graph2.png" />
+    <Content Include="Assets\graph3.png" />
+    <Content Include="Assets\graph4.png" />
+    <Content Include="Assets\graph5.png" />
+    <Content Include="Assets\graph6.png" />
+    <Content Include="Assets\graphs.png" />
+    <Content Include="Assets\Heightbtn.png" />
+    <Content Include="Assets\length.png" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\menubtn.png" />
+    <Content Include="Assets\menubtn1.png" />
+    <Content Include="Assets\menubtn2.png" />
+    <Content Include="Assets\object1.png" />
+    <Content Include="Assets\object2.png" />
+    <Content Include="Assets\object3.png" />
+    <Content Include="Assets\object4.png" />
+    <Content Include="Assets\object5.png" />
+    <Content Include="Assets\object6.png" />
+    <Content Include="Assets\objects.png" />
+    <Content Include="Assets\perimeterbtn.png" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\Volumebtn.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="FashionMen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MotionGraph1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MotionGraph.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shape1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Object3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Object6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Object4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Object5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Object2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Objects.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FashionWomen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Object1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WeakEye.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Shapes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Import Project="..\mobile App.Shared\mobile App.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

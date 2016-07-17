@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="mobile_App.Object5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:mobile_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/objects.png"/>
+        </Grid.Background>
+        <Button x:Name="btnc" Content="" HorizontalAlignment="Left" Margin="203,613,0,0" VerticalAlignment="Top" MinWidth="50" Width="61" Height="77" BorderThickness="0" Padding="0">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/menubtn2.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnm" Content="" HorizontalAlignment="Left" Margin="137,613,0,-6" VerticalAlignment="Top" MinWidth="50" Width="61" Height="77" BorderThickness="0" Padding="0">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/menubtn1.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btna" Content="" HorizontalAlignment="Left" Margin="19,-6,0,0" VerticalAlignment="Top" MinWidth="10" Width="61" Height="77" BorderThickness="0" Padding="0" MinHeight="10" Click="btna_Click">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/menubtn.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="PerimeterBtn" Content="Base circumference" HorizontalAlignment="Left" Margin="0,219.5,0,0" VerticalAlignment="Top" Width="195" BorderThickness="0" Height="61" Click="PerimeterBtn_Click" Background="#FFF6904E" FontSize="24" FontFamily="Myriad Pro" FontWeight="Thin" Padding="0" HorizontalContentAlignment="Left">
+        </Button>
+        <Button x:Name="HeightBtn" Content="Slant height" HorizontalAlignment="Left" Margin="0,267,0,0" VerticalAlignment="Top" Width="195" BorderThickness="0" Height="61" Background="#FFEE3824" HorizontalContentAlignment="Left" FontSize="24" FontFamily="Myriad Pro" FontWeight="Thin"/>
+        <Button x:Name="AreaBtn" Content=" Radius" HorizontalAlignment="Left" Margin="0,372,0,0" VerticalAlignment="Top" Width="195" BorderThickness="0" Height="61" Click="AreaBtn_Click" Background="#FF02AEA2" HorizontalContentAlignment="Left" FontFamily="Myriad Pro" FontSize="24" FontWeight="Thin"/>
+        <Button x:Name="VolumeBtn" Content=" Surface area" HorizontalAlignment="Left" Margin="0,421,0,0" VerticalAlignment="Top" Width="195" BorderThickness="0" Height="61" Click="VolumeBtn_Click" Background="#FFF05222" HorizontalContentAlignment="Left" FontSize="24" FontWeight="Thin" FontFamily="Myriad Pro"/>
+        <TextBox x:Name="tstParimeter" HorizontalAlignment="Left" Margin="195,229,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205" Height="42" Background="#FFF6904E" BorderThickness="0" SelectionHighlightColor="#FFF6904E" BorderBrush="Black" Foreground="Black" TextChanged="tstParimeter_TextChanged" TextAlignment="Right"/>
+        <TextBox x:Name="tstHeight" HorizontalAlignment="Left" Margin="195,276,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205" Height="42" Background="#FFEE3824" BorderThickness="0" Foreground="Black" SelectionHighlightColor="#FFEE3824" TextChanged="tstHeight_TextChanged" TextAlignment="Right"/>
+        <TextBox x:Name="tstRadius" HorizontalAlignment="Left" Margin="195,382,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205" Height="42" Background="#FF02AEA2" BorderThickness="0" Foreground="White" SelectionHighlightColor="White" TextAlignment="Right"/>
+        <TextBox x:Name="tstArea" HorizontalAlignment="Left" Margin="195,430,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205" Height="42" Background="#FFF05222" BorderThickness="0" Foreground="White" SelectionHighlightColor="White" TextAlignment="Right"/>
+        <Button x:Name="VolumeBtn_Copy" Content=" Volume" HorizontalAlignment="Left" Margin="0,468,0,0" VerticalAlignment="Top" Width="195" BorderThickness="0" Height="61" Click="VolumeBtn_Click" Background="#FFC4CB39" HorizontalContentAlignment="Left" FontSize="24" FontWeight="Thin" FontFamily="Myriad Pro"/>
+        <TextBox x:Name="tstVolume" HorizontalAlignment="Left" Margin="195,478,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205" Height="42" Background="#FFC4CB39" BorderThickness="0" Foreground="White" SelectionHighlightColor="White" TextAlignment="Right"/>
+    </Grid>
+</Page>
